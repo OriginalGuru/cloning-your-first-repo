@@ -28,5 +28,35 @@ You can exit the 'insert' mode by pushing the `ESC` button. Now 'write' and 'qui
 
 You can run your program with the command 'python hello-world.py'.
 
+## Using Markdown in Jupyter Notebook
+
+Run Jupyter Notebook.
+
+> jupyter noteboook
+
+This will open an environment in your default web browser. You can open the provided Jupyter Notebook titles 'Working with Markdown in Jupyter Notebooks.ipynb'. Work through this notebook to learn how to use Markdown. This will help you keep notes about your computational physics work.
+
+When you are done, navigate back to your terminal and type `CTRL+C` or `command+C` to exit Jupyter Notebook.
+
+## Submitting your first assignment in Git Hub Classroom
+
+With the above tasks complete, you can use the following series of commands to submit your assignment:
+
+Check the status of the git environment:
+> git status
+
+Add any files or edits:
+> git add .
+
+Prepare your files for submission and write a note for yourself:
+> git commit -m "completed hello-world assignment"
+
+Submit your assignment:
+> git push
+
+Check that everything is in order:
+> git status
+
+You can continue to work on your files and follow this procedure to update your assignment, until the deadline for that assignment.
 
 
