@@ -24,7 +24,7 @@ Add the following text:
 >
 > print("My name is " + user_name + ", and I like " + user_interest + ".")
 
-You can exit the 'insert' mode by pushing the 'ESC' button. Now 'write' and 'quit' 'vim'. Push 'ESC', then ':', then 'wq' and 'ENTER/RETURN'. This should bring you back to the command line.
+You can exit the 'insert' mode by pushing the `ESC` button. Now 'write' and 'quit' 'vim'. Push `ESC`, then `:`, then `wq` and `ENTER/RETURN`. This should bring you back to the command line.
 
 You can run your program with the command 'python hello-world.py'.
 
