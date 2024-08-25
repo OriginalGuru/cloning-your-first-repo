@@ -16,4 +16,9 @@ Open a file with vim for editing:
 
 push `i` to enter 'insert' mode
 
+Add the following text:
+
+> # This program 
+
+
 
