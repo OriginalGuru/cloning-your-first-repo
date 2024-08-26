@@ -82,8 +82,8 @@ Check the status of the git environment:
 Add any files or edits:
 > git add .
 
-Prepare your files for submission and write a note for yourself:
-> git commit -m "completed hello-world assignment"
+Prepare your files for submission and write a note for yourself. For example:
+> git commit -m "edited data.txt"
 
 Submit your assignment:
 > git push
