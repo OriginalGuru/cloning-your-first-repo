@@ -1,4 +1,4 @@
-# Cloning your first repo, tinkering with python, and navigating Markdown in Jupyter Notebook
+# Cloning your first repo, tinkering with vim and python, and navigating Markdown in Jupyter Notebook
 
 For this assignment, you are going to:
 
