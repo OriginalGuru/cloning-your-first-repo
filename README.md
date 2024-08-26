@@ -2,9 +2,43 @@
 
 For this assignment, you are going to:
 
-1. write a very simple python program from the command line; and
-2. learn how to work with Markdown in Jupyter Notebooks
-3. submit your first assignment in GitHub Classroom
+1. Tinker with a text file using vim; 
+2. write a very simple python program from the command line;
+3. learn how to work with Markdown in Jupyter Notebooks;
+4. submit your first assignment in GitHub Classroom.
+
+## Tinkering with vim
+
+To start working with the vim text editor, you can use the following command:
+
+> vim data.txt
+
+This opens the vim text editing environment and loads the file 'data.txt'. You can edit this file by entering 'insert' mode. To do so, you can type `i`. You should now be able to edit the text by using the arrow keys, delete/backspace, and the alphanumeric keys on your keyboard.
+
+Let's add a line of text explaining what each column of the data set means. In this case we should add,
+
+> T(K)  c_P(J/mol*K)
+
+for the temperature in Kelvin, and the heat capacity at constant pressure per unit mass. We should add a line above that stating where the data was taken from. In this case it was taken from the National Bureau of Standards and Technology (NIST). The specific resource was
+
+'NIST Chemistry WebBook, SRD 69'
+
+The web address for the data set is: 
+
+'https://webbook.nist.gov/cgi/cbook.cgi?Source=1953DES876-880&Mask=2'
+
+With that complete, let's line up all of the elements in the file and reorder the lines so that it goes from lowest temperature to highest temperature.
+
+To compelte the assignment, we need to exit 'insert' mode. This is achieved by entering `ESC`. Now we want to 'write' and 'quite' to complete our edits. This is done by typeing `ESC`, then `:`, then `wq`, then `ENTER/RETURN`. This should take you back to the command line.
+
+You can look at the contents of the edited file with the command
+
+> cat data.txt
+
+If you'd like to learn more about vim, you can search the web or try the following links:
+
+[vim Documentation](https://www.vim.org/)
+[Interactive vim Tutorial](https://openvim.com/)
 
 ## Writing a simply python program from the command line
 
